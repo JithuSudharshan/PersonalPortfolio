@@ -289,7 +289,7 @@ Feel free to reach out—I'm always open to new opportunities and collaborations
               />
             </div>
             <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
+              <label class="contact__form-label" type="email" for="email">Email</label>
               <input
                 required
                 placeholder="Enter Your Email"
@@ -369,24 +369,5 @@ Feel free to reach out—I'm always open to new opportunities and collaborations
       </div>
     </footer>
     <script src="index.js"></script>
-     <script>
-        $("#submit-form").submit((e)=>{
-            e.preventDefault()
-            $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbz9rCeLxgvQ66mSxHfhLzLfMBXD3vwF2SG-vA4cCIasVkVQnEywuWP3tS86mqWxfE1k/exec",
-                data:$("#submit-form").serialize(),
-                method:"post",
-                success:function (response){
-                    alert("Form submitted successfully")
-                    window.location.reload()
-                    //window.location.href="https://google.com"
-                },
-                error:function (err){
-                    alert("Something Error")
-    
-                }
-            })
-        })
-    </script>
   </body>
 </html>
