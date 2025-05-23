@@ -37,8 +37,7 @@ headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
 
-
-$('#submit-form').submit((e) => {
+        $('#submit-form').submit((e) => {
             e.preventDefault()
             $.ajax({
                 url: "https://script.google.com/macros/s/AKfycbz9rCeLxgvQ66mSxHfhLzLfMBXD3vwF2SG-vA4cCIasVkVQnEywuWP3tS86mqWxfE1k/exechttps://script.google.com/macros/s/AKfycbz9rCeLxgvQ66mSxHfhLzLfMBXD3vwF2SG-vA4cCIasVkVQnEywuWP3tS86mqWxfE1k/exec",
@@ -113,3 +112,5 @@ document
         .catch((err) => console.log(err));
     }
   });
+
+
